@@ -7,6 +7,10 @@ import (
 	"time"
 )
 
+/*
+* 参考: https://gist.github.com/atotto/6406c0e579c6cd8c920ba53ba952f0f5
+*/
+
 const TOPIC = "mytopic/test"
 
 func main() {
