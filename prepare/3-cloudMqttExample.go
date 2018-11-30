@@ -61,6 +61,7 @@ func main() {
 
 	// This example sends a messages every second and
 	// the same process receive the message and prints it to the console.
+	// 设置定时器，1秒publish一条数据
 	timer := time.NewTicker(1 * time.Second)
 	for t := range timer.C {
 		client.Publish(topic, 0, false, t.String())

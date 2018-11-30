@@ -7,6 +7,13 @@ import (
 	"os"
 	"time"
 )
+/*
+* 参考:
+*	https://www.imuo.com/a/4112ab6a74a6c801c0aeb9a4e9b05e5608e9149ede092df781f2beee0225b646
+*	https://www.hivemq.com/blog/mqtt-client-library-encyclopedia-golang
+*	https://www.eclipse.org/paho/clients/golang/
+*	https://github.com/eclipse/paho.mqtt.golang/blob/master/cmd/simple/main.go
+*/
 
 // define a function for the default message handler
 // 在接受到匹配订阅消息时的函数回调
