@@ -45,6 +45,6 @@ func main() {
 
 /*
 # 连接信息
-节点            客户端ID                                         用户名     IP地址     端口   清除会话 版本协议 心跳 连接时间
-emqx@127.0.0.1 Mjg0NzI0MTQ5ODgyMDY4ODE1NDczMzQ2MDkzNjQxMjM2NDI undefined 127.0.0.1 55830 true    4      30  2018-xx-xx xx:58:29
+	节点            客户端ID                                         用户名     IP地址     端口   清除会话 版本协议 心跳 连接时间
+	emqx@127.0.0.1 Mjg0NzI0MTQ5ODgyMDY4ODE1NDczMzQ2MDkzNjQxMjM2NDI undefined 127.0.0.1 55830 true    4      30  2018-xx-xx xx:58:29
 */

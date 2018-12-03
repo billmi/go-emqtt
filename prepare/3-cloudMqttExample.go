@@ -9,8 +9,8 @@ import (
 )
 
 /*
-- 参考: https://www.cloudmqtt.com/docs-go.html
-- https://github.com/CloudMQTT/go-mqtt-example
+* 参考: https://www.cloudmqtt.com/docs-go.html
+* https://github.com/CloudMQTT/go-mqtt-example
 */
 func connect(clientId string, uri *url.URL) mqtt.Client {
 	opts := createClientOptions(clientId, uri)
